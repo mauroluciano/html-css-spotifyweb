@@ -57,12 +57,12 @@
         <div class="container flex wrap">
           <div class="menu-container">
             <ul class="nav-container flex">
-              <li>In evidenza</li>
-              <li>Podcast</li>
-              <li>Classifiche</li>
-              <li>Generi e mood</li>
-              <li>Nuove uscite</li>
-              <li>Scopri</li>
+              <li><a href="#">In evidenza</a></li>
+              <li><a href="#">Podcast</a></li>
+              <li><a href="#">Classifiche</a></li>
+              <li><a href="#">Generi e mood</a></li>
+              <li><a href="#">Nuove uscite</a></li>
+              <li><a href="#">Scopri</a></li>
             </ul>
             <div class="recently-played">Recently Played</div>
             <div class="grid-albums flex wrap">
@@ -102,6 +102,22 @@
                 <sub>Subtitle</sub>
               </div>
             </div>
+
+            <div class="recently-played">Creato per John Doe</div>
+
+            <div class="grid-albums flex wrap">
+              <div class="card">
+                <img src="./img/metal_lifting.jpg" alt="" />
+                <p>Heavy Metal</p>
+                <sub>Subtitle</sub>
+              </div>
+
+              <div class="card">
+                <img src="./img/stranger.jpeg" alt="" />
+                <p>Heavy Metal</p>
+                <sub>Subtitle</sub>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -137,14 +153,20 @@
               <i class="fas fa-redo"></i>
             </div>
 
-            <div class="progress-bar debug">
+            <div class="progress-bar debug wrap">
               <div>0:25</div>
               <div></div>
               <div>4:35</div>
             </div>
           </div>
         </section>
-        <div class="right-player flex debug">right player</div>
+        <div class="right-player flex">
+          <section class="flex">
+            <i class="fas fa-list"></i>
+            <i class="fas fa-desktop"></i>
+            <i class="fas fa-volume-up"></i>
+          </section>
+        </div>
       </div>
     </footer>
 
