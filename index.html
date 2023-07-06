@@ -54,7 +54,7 @@
             <input type="button" value="Effettua l'upgrade" />
           </div>
         </header>
-        <div class="container">
+        <div class="container flex wrap">
           <div class="menu-container">
             <ul class="nav-container flex">
               <li>In evidenza</li>
@@ -65,7 +65,43 @@
               <li>Scopri</li>
             </ul>
             <div class="recently-played">Recently Played</div>
-            <div class="grid-albums"></div>
+            <div class="grid-albums flex wrap">
+              <div class="card">
+                <img src="./img/metal_lifting.jpg" alt="" />
+                <p>Heavy Metal</p>
+                <sub>Subtitle</sub>
+              </div>
+
+              <div class="card">
+                <img src="./img/stranger.jpeg" alt="" />
+                <p>Heavy Metal</p>
+                <sub>Subtitle</sub>
+              </div>
+
+              <div class="card">
+                <img src="./img/aquietplace.jpeg" alt="" />
+                <p>Heavy Metal</p>
+                <sub>Subtitle</sub>
+              </div>
+
+              <div class="card">
+                <img src="./img/split.jpeg" alt="" />
+                <p>Heavy Metal</p>
+                <sub>Subtitle</sub>
+              </div>
+
+              <div class="card">
+                <img src="./img/cure.jpeg" alt="" />
+                <p>Heavy Metal</p>
+                <sub>Subtitle</sub>
+              </div>
+
+              <div class="card">
+                <img src="./img/sinister.jpeg" alt="" />
+                <p>Heavy Metal</p>
+                <sub>Subtitle</sub>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -75,7 +111,42 @@
 
     <!-- open footer -->
 
-    <footer>footer</footer>
+    <footer class="flex">
+      <div class="player container flex between">
+        <div class="left-player flex">
+          <section class="flex">
+            <img src="./img/sinister.jpeg" alt="" />
+            <div class="song-title">
+              <span>Heavy Metal</span>
+              <sub>Subtitle</sub>
+            </div>
+          </section>
+
+          <section class="flex">
+            <i class="far fa-heart"></i>
+            <i class="far fa-folder"></i>
+          </section>
+        </div>
+        <section class="flex">
+          <div class="center-player flex">
+            <div>
+              <i class="fas fa-random"></i>
+              <i class="fas fa-step-backward"></i>
+              <i class="far fa-play-circle"></i>
+              <i class="fas fa-step-forward"></i>
+              <i class="fas fa-redo"></i>
+            </div>
+
+            <div class="progress-bar debug">
+              <div>0:25</div>
+              <div></div>
+              <div>4:35</div>
+            </div>
+          </div>
+        </section>
+        <div class="right-player flex debug">right player</div>
+      </div>
+    </footer>
 
     <!-- close footer -->
   </body>
