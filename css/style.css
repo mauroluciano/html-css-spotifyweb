@@ -105,6 +105,10 @@ footer {
 
 /*SIDEBAR*/
 
+.sidebar {
+  padding: 20px;
+}
+
 .logo img {
   padding: 1rem;
   width: 70%;
@@ -128,10 +132,16 @@ footer {
   text-transform: uppercase;
 }
 
+.add-playlist .fa-square-plus {
+  background-color: gray;
+}
+
+/*CONTAINER*/
+
 /*RESPONSIVE*/
 
 @media screen and (max-width: 600px) {
   .sidebar {
-    width: 50px;
+    width: 70px;
   }
 }
